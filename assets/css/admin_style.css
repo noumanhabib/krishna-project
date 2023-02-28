@@ -1,0 +1,366 @@
+/*login form css*/
+
+body#LoginForm{ background-color:rgba(1,100,137,1); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+
+
+
+.form-heading { color:#fff; font-size:23px;}
+
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+
+.login-form .form-control {
+
+  background: #f7f7f7 none repeat scroll 0 0;
+
+  border: 1px solid #d4d4d4;
+
+  border-radius: 4px;
+
+  font-size: 14px;
+
+  height: 50px;
+
+  line-height: 50px;
+
+}
+
+.main-div {
+
+  background: #ffffff none repeat scroll 0 0;
+
+  border-radius: 2px;
+
+  margin: 10px auto 30px;
+
+  max-width: 38%;
+
+  padding: 50px 70px 70px 71px;
+
+}
+
+
+
+.login-form .form-group {
+
+  margin-bottom:10px;
+
+}
+
+.login-form{ text-align:center;}
+
+.forgot a {
+
+  color: #777777;
+
+  font-size: 14px;
+
+  text-decoration: underline;
+
+}
+
+.login-form  .btn.btn-primary {
+
+  background: rgba(1,100,137,1) none repeat scroll 0 0;
+
+  border-color: rgba(1,100,137,1);
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  width: 100%;
+
+  height: 50px;
+
+  line-height: 50px;
+
+  padding: 0;
+
+}
+
+.forgot {
+
+  text-align: left; margin-bottom:30px;
+
+}
+
+.botto-text {
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  margin: auto;
+
+}
+
+.login-form .btn.btn-primary.reset {
+
+  background: rgba(1,100,137,1) none repeat scroll 0 0;
+
+}
+
+.back { text-align: left; margin-top:10px;}
+
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+
+
+/*end*/
+
+
+
+div#category_tablelist_filter
+
+{
+
+	float:right!important;
+
+}
+
+
+
+div#category_tablelist_paginate {
+
+    float: right!important;
+
+}
+
+
+
+#add_category_btn
+
+{
+
+	float:right;
+
+	background: #F36A5A;
+
+    border: none;
+
+}
+
+#add_btn
+
+{
+
+  float:right;
+
+  background: #F36A5A;
+
+    border: none;
+
+}
+
+#save_category_btn
+
+{
+
+	
+
+	background: #F36A5A;
+
+	color:#fff;
+
+    
+
+}
+
+.pagination>.active>a
+
+{
+
+	background: #F36A5A;
+
+    border-color: #F36A5A;
+
+}
+
+.required_label
+
+{
+
+	color:red;
+
+}
+
+/*toogle button */
+
+.switch {
+
+  position: relative;
+
+  display: inline-block;
+
+  width: 60px;
+
+  height: 34px;
+
+}
+
+
+
+.switch input { 
+
+  opacity: 0;
+
+  width: 0;
+
+  height: 0;
+
+}
+
+
+
+.slider {
+
+  position: absolute;
+
+  cursor: pointer;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: red;
+
+  -webkit-transition: .4s;
+
+  transition: .4s;
+
+}
+
+
+
+.slider:before {
+
+  position: absolute;
+
+  content: "";
+
+  height: 26px;
+
+  width: 26px;
+
+  left: 4px;
+
+  bottom: 4px;
+
+  background-color: white;
+
+  -webkit-transition: .4s;
+
+  transition: .4s;
+
+}
+
+
+
+input:checked + .slider {
+
+  background-color: green;
+
+}
+
+
+
+input:focus + .slider {
+
+  box-shadow: 0 0 1px #2196F3;
+
+}
+
+
+
+input:checked + .slider:before {
+
+  -webkit-transform: translateX(26px);
+
+  -ms-transform: translateX(26px);
+
+  transform: translateX(26px);
+
+}
+
+
+
+/* Rounded sliders */
+
+.slider.round {
+
+  border-radius: 34px;
+
+}
+
+
+
+.slider.round:before {
+
+  border-radius: 50%;
+
+}
+
+
+
+.text-danger
+
+{
+
+  color:red!important;
+
+}
+
+/*Navigation collapsed---------------*/
+
+.nav_collapsed
+
+{
+
+  left:-260px!important;
+
+}
+
+.page_collapsed
+
+{
+
+  margin-left: 0px!important;
+
+}
+
+/*--------------end-----------*/
+
+.save_btn
+
+{
+
+  background-color: green;
+
+  color:white;
+
+}
+
+.dataTables_filter
+
+{
+
+  float: right;
+
+}
+
+.dataTables_paginate
+
+{
+
+  float: right;
+
+}
+@media(max-width:991px) {
+  .main-div{max-width: 100% !important;width: 100%}
+ } 
